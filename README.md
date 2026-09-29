@@ -81,25 +81,44 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/zemaldars01-png/zemal-personal-site.git
+```
 
 Open the project folder:
-cd zemal-personal-site
 
-Then open index.html in your browser.
+```bash
+cd zemal-personal-site
+```
+
+Then open `index.html` in your browser.
+
 You can also run a simple local server:
+
+```bash
 python3 -m http.server 8000
+```
 
 Then open:
+
+```text
 http://localhost:8000
+```
 
 No extra packages are required.
-How It Works
+
+## How It Works
+
 HTML is used for the structure and content of the website.
+
 CSS is used for the colors, layout, cards, buttons, images, and responsive design.
+
 I used Flexbox for parts of the layout and CSS Grid for the cards and certificate gallery.
+
 JavaScript is only used for the back-to-top button.
-What I Learned
+
+## What I Learned
+
 While making this project, I learned more about:
+
 - organizing a webpage with HTML
 - styling with CSS
 - using Flexbox and Grid
@@ -107,13 +126,23 @@ While making this project, I learned more about:
 - adding simple JavaScript
 - using Git and GitHub
 - publishing a website with GitHub Pages
+
 I also learned that keeping code simple makes it easier to understand and update later.
-Changes After Feedback
+
+## Changes After Feedback
+
 After receiving feedback, I simplified the CSS and removed unnecessary styling so the code is easier for me to understand and maintain.
+
 I also improved this README so the project is easier to understand and run.
-AI Usage
+
+## AI Usage
+
 I used AI for guidance, explanations, and debugging when I got stuck.
+
 After receiving feedback, I reviewed the project again and simplified the code so I could understand the styling and layout better.
-Credits
+
+## Credits
+
 Built by Zemal Dars.
+
 Made as part of the Hack Club Stardance Challenge.
