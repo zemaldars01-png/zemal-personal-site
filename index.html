@@ -4,120 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Zemal Dars | Personal Website</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- SCROLL PROGRESS BAR -->
-    <div class="scroll-progress" id="scrollProgress"></div>
-
-    <!-- SOFT MOVING BACKGROUND GLOWS -->
-    <div class="ambient-glow glow-one"></div>
-    <div class="ambient-glow glow-two"></div>
-
-
-    <!-- NAVIGATION -->
-
+    <!-- navbar -->
     <nav class="navbar">
-
         <a href="#about">About</a>
-
         <a href="#projects">Projects</a>
-
         <a href="#achievements">Achievements</a>
-
         <a href="#leadership">Leadership</a>
-
         <a href="#courses">Courses</a>
-
-        <a href="#gallery">Gallery</a>
-
+        <a href="#certificates">Certificates</a>
         <a href="#contact">Contact</a>
-
     </nav>
-
 
     <main>
 
-        <!-- HERO -->
-
+        <!-- home section -->
         <section class="hero">
 
-            <div class="hero-left">
+            <div class="hero-text">
 
-                <p class="hero-tag">
+                <p class="intro-line">
                     AI • Technology • Leadership • Public Speaking
                 </p>
 
-
                 <h1>Zemal Dars</h1>
 
-
-                <p class="hero-text">
-
-                    Grade 12 student passionate about artificial intelligence,
-                    technology, leadership, public speaking, and creating
-                    positive impact.
-
+                <p>
+                    I am a Grade 12 student interested in AI, technology,
+                    leadership and public speaking. I enjoy learning new
+                    things and building projects.
                 </p>
 
-
                 <div class="hero-buttons">
-
-                    <a class="btn primary" href="#projects">
-                        Explore My Work
+                    <a href="#projects" class="button primary">
+                        View My Projects
                     </a>
 
-                    <a class="btn secondary" href="#contact">
+                    <a href="#contact" class="button secondary">
                         Contact Me
                     </a>
-
                 </div>
 
             </div>
 
-
-            <div class="hero-right">
-
-                <div class="profile-frame">
-
-                    <img
-                        src="images/images/profile.jpeg"
-                        alt="Zemal Dars"
-                        class="profile-photo"
-                    >
-
-                </div>
-
+            <div class="hero-image">
+                <img
+                    src="images/images/profile.jpeg"
+                    alt="Zemal Dars"
+                    class="profile-photo"
+                >
             </div>
 
         </section>
 
 
-        <!-- ABOUT -->
-
+        <!-- about -->
         <section id="about" class="section">
 
             <h2>About Me</h2>
 
-
-            <div class="about-card">
+            <div class="about-box">
 
                 <p>
-                    I am a Grade 12 student with strong interests in artificial
-                    intelligence, technology, leadership, public speaking,
-                    and community engagement.
+                    I am currently studying in Grade 12 and I enjoy learning
+                    about technology and artificial intelligence.
                 </p>
 
+                <p>
+                    I also enjoy public speaking, Model United Nations,
+                    leadership activities and student programs.
+                </p>
 
                 <p>
-                    I enjoy learning new skills, participating in competitions,
-                    taking on leadership roles, and exploring how technology
-                    can be used to create positive and meaningful change.
+                    I created this website to share some of my projects,
+                    achievements and certificates.
                 </p>
 
             </div>
@@ -125,753 +90,324 @@
         </section>
 
 
-        <!-- PROJECTS -->
-
+        <!-- projects -->
         <section id="projects" class="section">
 
-            <h2>Projects & Activities</h2>
-
+            <h2>Projects</h2>
 
             <div class="card-grid">
 
+                <div class="card">
+                    <div class="icon">🌐</div>
+
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p>
+                        My personal website made with HTML, CSS and JavaScript.
+                    </p>
+
+                    <a
+                        href="https://zemaldars01-png.github.io/zemal-personal-site/"
+                        target="_blank"
+                        class="project-link"
+                    >
+                        View Website
+                    </a>
+                </div>
+
 
                 <div class="card">
+                    <div class="icon">🎮</div>
 
+                    <h3>Out of Sync</h3>
+
+                    <p>
+                        A puzzle game I made in Godot where the player
+                        collects keys and tries to escape.
+                    </p>
+
+                    <a
+                        href="https://zemal-dars.itch.io/out-of-sync"
+                        target="_blank"
+                        class="project-link"
+                    >
+                        Play Game
+                    </a>
+                </div>
+
+
+                <div class="card">
                     <div class="icon">🤖</div>
 
-                    <h3>AI & Technology Learning</h3>
+                    <h3>ZemalBot</h3>
 
                     <p>
-                        Exploring artificial intelligence through certifications,
-                        courses, prompt engineering, and hands-on learning.
+                        A Slack bot made with JavaScript and Slack Bolt.
                     </p>
 
+                    <a
+                        href="https://github.com/zemaldars01-png/zemal-slack-bot"
+                        target="_blank"
+                        class="project-link"
+                    >
+                        View on GitHub
+                    </a>
                 </div>
-
-
-                <div class="card">
-
-                    <div class="icon">🎤</div>
-
-                    <h3>AI Debate & Public Speaking</h3>
-
-                    <p>
-                        Participated in speeches and debates on artificial
-                        intelligence, technology, education, and social impact.
-                    </p>
-
-                </div>
-
-
-                <div class="card">
-
-                    <div class="icon">🌍</div>
-
-                    <h3>Model United Nations</h3>
-
-                    <p>
-                        Participated in MUN conferences while developing skills
-                        in diplomacy, research, communication, and teamwork.
-                    </p>
-
-                </div>
-
-
-                <div class="card">
-
-                    <div class="icon">✨</div>
-
-                    <h3>Leadership & Clubs</h3>
-
-                    <p>
-                        Active in school leadership, student representation,
-                        clubs, and community-focused activities.
-                    </p>
-
-                </div>
-
 
             </div>
 
         </section>
 
 
-        <!-- ACHIEVEMENTS -->
-
+        <!-- achievements -->
         <section id="achievements" class="section">
 
             <h2>Achievements</h2>
 
-
             <div class="card-grid">
 
-
                 <div class="card">
-
                     <div class="icon">🏆</div>
-
-                    <h3>AI-900 Certification</h3>
-
-                    <p>
-                        Microsoft Azure AI Fundamentals certified
-                        with a score of 900/1000.
-                    </p>
-
+                    <h3>Microsoft Azure AI Fundamentals</h3>
+                    <p>Passed the AI-900 exam with a score of 900/1000.</p>
                 </div>
 
-
                 <div class="card">
-
-                    <div class="icon">🌐</div>
-
-                    <h3>MUN Recognition</h3>
-
+                    <div class="icon">🌍</div>
+                    <h3>Model United Nations</h3>
                     <p>
-                        Received Special Mention at Pakistan Youth Conclave
-                        MUN 2025 and Honourable Mention at FILSS MUN 2025.
+                        Received a Special Mention and an Honourable Mention
+                        in MUN conferences.
                     </p>
-
                 </div>
 
-
                 <div class="card">
-
-                    <div class="icon">🎙️</div>
-
+                    <div class="icon">🎤</div>
                     <h3>Public Speaking</h3>
-
                     <p>
-                        Secured 1st place in on-campus speech competitions
-                        in 2025 and 2026, and 2nd place in a regional
-                        declamation contest in 2022.
+                        Won 1st place in school speech competitions
+                        and 2nd place in a regional declamation contest.
                     </p>
-
                 </div>
 
-
                 <div class="card">
-
-                    <div class="icon">🚀</div>
-
-                    <h3>Teknofest</h3>
-
-                    <p>
-                        Selected for the second round of Teknofest.
-                    </p>
-
-                </div>
-
-
-                <div class="card">
-
                     <div class="icon">📚</div>
-
                     <h3>Spelling Bee</h3>
-
-                    <p>
-                        Received 3rd place in a Spelling Bee competition.
-                    </p>
-
+                    <p>Received 3rd place in a Spelling Bee competition.</p>
                 </div>
 
-
                 <div class="card">
-
-                    <div class="icon">🏸</div>
-
-                    <h3>Sports</h3>
-
-                    <p>
-                        Won 1st place in badminton and
-                        2nd place in basketball.
-                    </p>
-
-                </div>
-
-
-                <div class="card">
-
                     <div class="icon">⭐</div>
-
                     <h3>Student Recognition</h3>
-
-                    <p>
-                        Recognized as Student of the Month.
-                    </p>
-
+                    <p>Recognized as Student of the Month.</p>
                 </div>
-
 
             </div>
 
         </section>
 
 
-        <!-- LEADERSHIP -->
-
+        <!-- leadership -->
         <section id="leadership" class="section">
 
             <h2>Leadership</h2>
 
-
             <div class="card-grid">
 
-
                 <div class="card">
-
                     <div class="icon">👩‍🎓</div>
-
                     <h3>Class Representative</h3>
-
-                    <p>
-                        Served as Class Representative
-                        for two consecutive years.
-                    </p>
-
+                    <p>Served as Class Representative for two years.</p>
                 </div>
 
-
                 <div class="card">
-
                     <div class="icon">🎨</div>
-
                     <h3>Club President</h3>
-
                     <p>
-                        President of the Literacy & Art Club
+                        Served as President of the Literacy & Art Club
                         and Scouts Club.
                     </p>
-
                 </div>
-
 
                 <div class="card">
-
                     <div class="icon">🌙</div>
-
-                    <h3>Vice President</h3>
-
-                    <p>
-                        Vice President of the Turkish Club.
-                    </p>
-
+                    <h3>Turkish Club</h3>
+                    <p>Served as Vice President of the Turkish Club.</p>
                 </div>
-
 
             </div>
 
         </section>
 
 
-        <!-- COURSES -->
-
+        <!-- courses -->
         <section id="courses" class="section">
 
             <h2>Courses & Certifications</h2>
 
-
             <div class="card-grid">
 
-
                 <div class="card">
-
-                    <div class="icon">☁️</div>
-
                     <h3>Microsoft Azure AI Fundamentals</h3>
-
-                    <p>
-                        AI-900 certification with a score of 900/1000.
-                    </p>
-
+                    <p>Microsoft AI-900 certification.</p>
                 </div>
 
-
                 <div class="card">
-
-                    <div class="icon">💬</div>
-
                     <h3>Introduction to ChatGPT</h3>
-
-                    <p>
-                        Completed through DataCamp.
-                    </p>
-
+                    <p>Completed through DataCamp.</p>
                 </div>
 
-
                 <div class="card">
-
-                    <div class="icon">⚖️</div>
-
                     <h3>AI Ethics</h3>
-
-                    <p>
-                        Completed through DataCamp.
-                    </p>
-
+                    <p>Completed through DataCamp.</p>
                 </div>
-
 
                 <div class="card">
-
-                    <div class="icon">💡</div>
-
                     <h3>Understanding Prompt Engineering</h3>
-
-                    <p>
-                        Completed through DataCamp.
-                    </p>
-
+                    <p>Completed through DataCamp.</p>
                 </div>
-
 
             </div>
 
         </section>
 
 
-        <!-- CERTIFICATES -->
+        <!-- certificates -->
+        <section id="certificates" class="section">
 
-        <section id="gallery" class="section">
+            <h2>Certificates</h2>
 
-            <h2>Certificates & Highlights</h2>
-
-
-            <p class="section-subtitle">
-                A selection of my certifications and learning achievements
-                in AI and technology.
+            <p class="section-description">
+                Some certificates from courses I have completed.
             </p>
-
 
             <div class="certificate-grid">
 
-
                 <div class="certificate-card">
-
-                    <div class="certificate-image-wrap">
-
-                        <img
-                            src="images/images/azure-ai-fundamentals.jpeg"
-                            alt="Microsoft Azure AI Fundamentals certificate"
-                        >
-
-                    </div>
-
-
-                    <div class="certificate-info">
-
-                        <h3>
-                            Microsoft Azure AI Fundamentals
-                        </h3>
-
-                        <p>
-                            Microsoft Certified • AI-900
-                        </p>
-
-                    </div>
-
+                    <img
+                        src="images/images/azure-ai-fundamentals.jpeg"
+                        alt="Azure AI Fundamentals certificate"
+                    >
+                    <h3>Microsoft Azure AI Fundamentals</h3>
+                    <p>Microsoft Certified • AI-900</p>
                 </div>
 
-
                 <div class="certificate-card">
-
-                    <div class="certificate-image-wrap">
-
-                        <img
-                            src="images/images/ai900-score.jpeg"
-                            alt="AI-900 exam score report"
-                        >
-
-                    </div>
-
-
-                    <div class="certificate-info">
-
-                        <h3>
-                            AI-900 Exam Result
-                        </h3>
-
-                        <p>
-                            Score: 900/1000
-                        </p>
-
-                    </div>
-
+                    <img
+                        src="images/images/ai900-score.jpeg"
+                        alt="AI-900 exam result"
+                    >
+                    <h3>AI-900 Exam Result</h3>
+                    <p>Score: 900/1000</p>
                 </div>
 
-
                 <div class="certificate-card">
-
-                    <div class="certificate-image-wrap">
-
-                        <img
-                            src="images/images/ai-ethics.jpeg"
-                            alt="AI Ethics certificate"
-                        >
-
-                    </div>
-
-
-                    <div class="certificate-info">
-
-                        <h3>
-                            AI Ethics
-                        </h3>
-
-                        <p>
-                            DataCamp
-                        </p>
-
-                    </div>
-
+                    <img
+                        src="images/images/ai-ethics.jpeg"
+                        alt="AI Ethics certificate"
+                    >
+                    <h3>AI Ethics</h3>
+                    <p>DataCamp</p>
                 </div>
 
-
                 <div class="certificate-card">
-
-                    <div class="certificate-image-wrap">
-
-                        <img
-                            src="images/images/prompt-engineering.jpeg"
-                            alt="Understanding Prompt Engineering certificate"
-                        >
-
-                    </div>
-
-
-                    <div class="certificate-info">
-
-                        <h3>
-                            Understanding Prompt Engineering
-                        </h3>
-
-                        <p>
-                            DataCamp
-                        </p>
-
-                    </div>
-
+                    <img
+                        src="images/images/prompt-engineering.jpeg"
+                        alt="Prompt Engineering certificate"
+                    >
+                    <h3>Understanding Prompt Engineering</h3>
+                    <p>DataCamp</p>
                 </div>
 
-
                 <div class="certificate-card">
-
-                    <div class="certificate-image-wrap">
-
-                        <img
-                            src="images/images/chatgpt-course.jpeg"
-                            alt="Introduction to ChatGPT certificate"
-                        >
-
-                    </div>
-
-
-                    <div class="certificate-info">
-
-                        <h3>
-                            Introduction to ChatGPT
-                        </h3>
-
-                        <p>
-                            DataCamp
-                        </p>
-
-                    </div>
-
+                    <img
+                        src="images/images/chatgpt-course.jpeg"
+                        alt="Introduction to ChatGPT certificate"
+                    >
+                    <h3>Introduction to ChatGPT</h3>
+                    <p>DataCamp</p>
                 </div>
-
 
             </div>
 
         </section>
 
 
-        <!-- CONTACT -->
-
+        <!-- contact -->
         <section id="contact" class="section">
 
             <h2>Let's Connect</h2>
 
-
             <div class="contact-box">
-
 
                 <p>
                     I am interested in learning opportunities,
-                    student programs, technology, leadership,
-                    and meaningful projects.
+                    student programs and technology projects.
                 </p>
 
+                <div class="contact-links">
 
-                <div class="contact-buttons">
-
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=zemaldars01@gmail.com"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                       ✉️ Email Me
+                    <a href="mailto:zemaldars01@gmail.com">
+                        Email
                     </a>
-
 
                     <a
                         href="https://www.linkedin.com/in/zemal-dars-728893386"
                         target="_blank"
-                        rel="noopener noreferrer"
                     >
-                        💼 LinkedIn
+                        LinkedIn
                     </a>
-
 
                     <a
                         href="https://github.com/zemaldars01-png"
                         target="_blank"
-                        rel="noopener noreferrer"
                     >
-                        💻 GitHub
+                        GitHub
                     </a>
 
-
                 </div>
-
 
             </div>
 
         </section>
 
-
     </main>
 
 
-    <!-- FOOTER -->
-
+    <!-- footer -->
     <footer>
-
-        <strong>
-            Designed & built by Zemal Dars 💗
-        </strong>
-
-        <span>
-            Created with HTML, CSS & JavaScript
-            for the Stardance Challenge • 2026
-        </span>
-
+        <p>Built by Zemal Dars</p>
+        <p>HTML • CSS • JavaScript</p>
     </footer>
 
 
-    <!-- BACK TO TOP -->
-
-    <button
-        id="backToTop"
-        class="back-to-top"
-        aria-label="Back to top"
-        title="Back to top"
-    >
+    <!-- back to top button -->
+    <button id="backToTop" class="back-to-top">
         ↑
     </button>
 
 
-    <!-- JAVASCRIPT -->
-
     <script>
-
-        /* --------------------------------
-           ELEMENTS
-        -------------------------------- */
-
-        const sections =
-            document.querySelectorAll(".section");
-
-        const navLinks =
-            document.querySelectorAll(".navbar a");
-
-        const progressBar =
-            document.getElementById("scrollProgress");
 
         const backToTop =
             document.getElementById("backToTop");
 
+        window.addEventListener("scroll", function () {
 
-        /* --------------------------------
-           SECTION REVEAL
-        -------------------------------- */
-
-        const revealObserver =
-            new IntersectionObserver(
-
-                (entries) => {
-
-                    entries.forEach((entry) => {
-
-                        if (entry.isIntersecting) {
-
-                            entry.target.classList.add("show");
-
-                        }
-
-                    });
-
-                },
-
-                {
-                    threshold: 0.12
-                }
-
-            );
-
-
-        sections.forEach((section) => {
-
-            revealObserver.observe(section);
+            if (window.scrollY > 400) {
+                backToTop.style.display = "block";
+            } else {
+                backToTop.style.display = "none";
+            }
 
         });
 
+        backToTop.addEventListener("click", function () {
 
-        /* --------------------------------
-           SCROLL FEATURES
-        -------------------------------- */
-
-        function handleScroll() {
-
-            const scrollTop =
-                window.scrollY ||
-                document.documentElement.scrollTop;
-
-
-            const documentHeight =
-                document.documentElement.scrollHeight -
-                window.innerHeight;
-
-
-            /* PROGRESS BAR */
-
-            const progress =
-                documentHeight > 0
-                    ? (scrollTop / documentHeight) * 100
-                    : 0;
-
-
-            progressBar.style.width =
-                progress + "%";
-
-
-            /* BACK TO TOP BUTTON */
-
-            if (scrollTop > 450) {
-
-                backToTop.classList.add("visible");
-
-            }
-
-            else {
-
-                backToTop.classList.remove("visible");
-
-            }
-
-
-            /* ACTIVE NAVBAR SECTION */
-
-            let currentSection = "";
-
-
-            sections.forEach((section) => {
-
-                const sectionTop =
-                    section.offsetTop - 180;
-
-
-                if (scrollTop >= sectionTop) {
-
-                    currentSection =
-                        section.getAttribute("id");
-
-                }
-
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
             });
-
-
-            navLinks.forEach((link) => {
-
-                link.classList.remove("active");
-
-
-                if (
-                    currentSection &&
-                    link.getAttribute("href") ===
-                    "#" + currentSection
-                ) {
-
-                    link.classList.add("active");
-
-                }
-
-            });
-
-        }
-
-
-        window.addEventListener(
-            "scroll",
-            handleScroll,
-            { passive: true }
-        );
-
-
-        handleScroll();
-
-
-        /* --------------------------------
-           BACK TO TOP
-        -------------------------------- */
-
-        backToTop.addEventListener(
-            "click",
-            () => {
-
-                window.scrollTo({
-
-                    top: 0,
-
-                    behavior: "smooth"
-
-                });
-
-            }
-        );
-
-
-        /* --------------------------------
-           SMOOTH NAVIGATION
-        -------------------------------- */
-
-        navLinks.forEach((link) => {
-
-            link.addEventListener(
-                "click",
-                (event) => {
-
-                    const target =
-                        document.querySelector(
-                            link.getAttribute("href")
-                        );
-
-
-                    if (target) {
-
-                        event.preventDefault();
-
-
-                        target.scrollIntoView({
-
-                            behavior: "smooth",
-
-                            block: "start"
-
-                        });
-
-                    }
-
-                }
-            );
 
         });
 
