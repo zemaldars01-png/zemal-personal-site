@@ -245,10 +245,3 @@ Built by Zemal Dars.
 The website was made using HTML, CSS, and JavaScript.
 
 Made as part of the Hack Club Stardance Challenge.
-```
-
-One important thing: before pushing, make sure this image actually exists:
-
-```text
-images/images/portfolio-preview.png
-```
