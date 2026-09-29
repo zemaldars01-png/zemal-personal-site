@@ -2,7 +2,7 @@
 
 A personal portfolio website where I share my projects, achievements, certificates, and interests.
 
-![Website Preview](images/images/portfolio-preview.png)
+![Website Preview](images/images/portfolio_preview.png)
 
 ## Live Website
 
